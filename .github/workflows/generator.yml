@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - generator
+      - .github/workflows/generator.yml
   workflow_dispatch:
     inputs:
       debug_mode:
