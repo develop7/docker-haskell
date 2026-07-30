@@ -3,6 +3,9 @@
   "extends": [
     "config:best-practices"
   ],
+  "ignorePaths": [
+    "**/Dockerfile"
+  ],
   "packageRules": [
     {
       "description": "official-images does not accept digest-pinned FROM lines (https://github.com/docker-library/official-images/pull/21812)",
